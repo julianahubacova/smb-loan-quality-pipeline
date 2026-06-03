@@ -1,0 +1,21 @@
+application_id,company_name,province,industry_sector,loan_amount,loan_purpose,application_date,employee_count,years_in_business,annual_revenue,credit_score,status
+LN-0001,Maple Tech Solutions,QC,Technology,150000,Equipment Purchase,2024-01-15,12,5,850000,720,Approved
+LN-0002,Prairie Grain Co,SK,Agriculture,75000,Working Capital,2024-01-16,4,12,420000,680,Approved
+LN-0003,Atlantic Fresh Foods,NB,Food & Beverage,200000,Expansion,2024-01-17,28,8,1200000,710,Approved
+LN-0004,Northern Builds Inc,ON,Construction,325000,Equipment Purchase,2024-01-18,45,15,2800000,750,Approved
+LN-0005,Coastal Marine Services,BC,Transportation,95000,Working Capital,2024-01-19,7,3,380000,640,Under Review
+LN-0006,Rocky Mountain Retail,AB,Retail,180000,Renovation,2024-01-20,22,6,950000,695,Approved
+LN-0007,Laurentian Consulting,QC,Professional Services,50000,Working Capital,2024-01-21,3,2,210000,660,Under Review
+LN-0008,Great Lakes Manufacturing,ON,Manufacturing,500000,Expansion,2024-01-22,110,20,4500000,780,Approved
+LN-0009,Island Hospitality Group,PE,Hospitality,120000,Renovation,2024-01-23,35,9,780000,670,Approved
+LN-0010,Yukon Mining Supplies,YT,Mining,250000,Equipment Purchase,2024-01-24,18,7,1100000,700,Under Review
+LN-0011,Metro Healthcare Clinic,ON,Healthcare,85000,Equipment Purchase,2024-01-25,15,4,620000,730,Approved
+LN-0012,Fjord Fisheries Ltd,NL,Agriculture,60000,Working Capital,2024-01-26,6,11,290000,655,Approved
+LN-0013,Capital City Cleaners,AB,Services,,Expansion,2024-01-27,8,3,310000,610,Rejected
+LN-0014,Rideau River Brewing,ON,Food & Beverage,175000,Equipment Purchase,2024-01-28,20,5,890000,715,Approved
+LN-0015,Tundra Logistics,NT,Transportation,300000,Fleet Expansion,2024-01-29,25,10,1350000,,Under Review
+LN-0016,Baie-Comeau Forestry,QC,Forestry,420000,Equipment Purchase,2024-01-30,60,18,3200000,760,Approved
+LN-0017,Okanagan Orchards,BC,Agriculture,90000,Working Capital,2024-02-01,9,14,480000,690,Approved
+LN-0018,Halifax Digital Agency,NS,Technology,45000,Working Capital,2024-02-02,5,2,195000,635,Rejected
+LN-0019,Winnipeg Auto Parts,MB,Retail,135000,Inventory,2024-02-03,17,8,720000,705,Approved
+LN-0020,Gatineau Green Energy,QC,Energy,275000,Expansion,2024-02-04,30,6,1600000,740,Approved
