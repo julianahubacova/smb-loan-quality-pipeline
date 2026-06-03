@@ -10,17 +10,19 @@
 
 ## Architecture
 
+```
 Raw Source (CSV)
-↓
-[Bronze Layer] — Raw ingestion, no transformations
-↓
-[Silver Layer] — Cleaned, typed, deduplicated
-↓
-[Gold Layer]   — Aggregated, business-ready
-↓
-[Data Quality] — Completeness, freshness, consistency checks
-↓
-[Power BI Dashboard] — DQ monitoring + business view
+      ↓
+  [Bronze Layer] — Raw ingestion, no transformations
+      ↓
+  [Silver Layer] — Cleaned, typed, deduplicated
+      ↓
+  [Gold Layer]   — Aggregated, business-ready
+      ↓
+  [Data Quality] — Completeness, freshness, consistency checks
+      ↓
+  [Power BI Dashboard] — DQ monitoring + business view
+```
 
 ---
 
@@ -32,12 +34,13 @@ Raw Source (CSV)
 | PySpark / SQL | Data processing |
 | Delta Lake | Storage format |
 | Power BI | Dashboard & visualization |
-| GitHub / Azure DevOps | Version control |
+| GitHub | Version control |
 
 ---
 
 ## Project Structure
 
+```
 smb-loan-quality-pipeline/
 ├── data/
 │   ├── raw/          # Simulated raw source files
@@ -49,6 +52,7 @@ smb-loan-quality-pipeline/
 │   └── gold/         # Aggregation queries
 ├── docs/             # Data dictionary, mapping docs, lineage
 └── dashboard/        # Power BI screenshots & .pbix file
+```
 
 ---
 
