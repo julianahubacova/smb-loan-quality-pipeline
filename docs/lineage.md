@@ -41,31 +41,13 @@ flowchart TD
 
 ## Field-Level Lineage Summary
 
-loan_applications.csv
-└── loan_amount
-└── bronze_loan_applications.loan_amount (string)
-└── silver_loan_applications.loan_amount (decimal 15,2)
-├── gold_loans_by_province.avg_loan_amount
-├── gold_loans_by_province.total_loan_volume
-└── gold_loans_by_industry.avg_loan_amountloan_applications.csv
-└── loan_amount
-└── bronze_loan_applications.loan_amount (string)
-└── silver_loan_applications.loan_amount (decimal 15,2)
-├── gold_loans_by_province.avg_loan_amount
-├── gold_loans_by_province.total_loan_volume
-└── gold_loans_by_industry.avg_loan_amount
-└── credit_score
-        └── bronze_loan_applications.credit_score (double)
-                └── silver_loan_applications.credit_score (integer)
-                        └── gold_loans_by_industry.avg_credit_score
-
-└── status
-        └── bronze_loan_applications.status (string)
-                └── silver_loan_applications.status (string)
-                        ├── gold_loans_by_province.approved
-                        ├── gold_loans_by_province.rejected
-                        └── gold_loans_by_province.under_review
-
+| Source Field | Bronze | Silver | Gold |
+|---|---|---|---|
+| loan_amount | bronze_loan_applications.loan_amount (string) | silver_loan_applications.loan_amount (decimal 15,2) | gold_loans_by_province.avg_loan_amount, gold_loans_by_province.total_loan_volume, gold_loans_by_industry.avg_loan_amount |
+| credit_score | bronze_loan_applications.credit_score (double) | silver_loan_applications.credit_score (integer) | gold_loans_by_industry.avg_credit_score |
+| status | bronze_loan_applications.status (string) | silver_loan_applications.status (string) | gold_loans_by_province.approved, gold_loans_by_province.rejected, gold_loans_by_province.under_review |
+| province | bronze_loan_applications.province (string) | silver_loan_applications.province (uppercased, trimmed) | gold_loans_by_province (group by key) |
+| industry_sector | bronze_loan_applications.industry_sector (string) | silver_loan_applications.industry_sector (string) | gold_loans_by_industry (group by key) |
 ---
 
 ## Tools & Technologies
