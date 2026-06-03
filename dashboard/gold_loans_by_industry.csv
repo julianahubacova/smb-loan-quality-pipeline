@@ -1,0 +1,15 @@
+industry_sector,total_applications,avg_loan_amount,avg_credit_score,_layer
+Energy,1,275000.00,740.0,gold
+Services,1,,610.0,gold
+Transportation,2,197500.00,640.0,gold
+Retail,2,157500.00,700.0,gold
+Technology,2,97500.00,678.0,gold
+Forestry,1,420000.00,760.0,gold
+Agriculture,3,75000.00,675.0,gold
+Food & Beverage,2,187500.00,713.0,gold
+Construction,1,325000.00,750.0,gold
+Healthcare,1,85000.00,730.0,gold
+Mining,1,250000.00,700.0,gold
+Manufacturing,1,500000.00,780.0,gold
+Professional Services,1,50000.00,660.0,gold
+Hospitality,1,120000.00,670.0,gold

@@ -1,0 +1,11 @@
+check_name,check_type,description,failed_rows,field,run_timestamp,status,total_rows
+completeness_application_id,Completeness,application_id must not be null,0,application_id,2026-06-03 01:14:57,PASS,20
+completeness_company_name,Completeness,company_name must not be null,0,company_name,2026-06-03 01:14:58,PASS,20
+completeness_province,Completeness,province must not be null,0,province,2026-06-03 01:14:58,PASS,20
+completeness_status,Completeness,status must not be null,0,status,2026-06-03 01:14:59,PASS,20
+completeness_loan_amount,Completeness,loan_amount must not be null,1,loan_amount,2026-06-03 01:15:00,FAIL,20
+completeness_credit_score,Completeness,credit_score must not be null,1,credit_score,2026-06-03 01:15:00,FAIL,20
+consistency_province,Consistency,province must be a valid Canadian province/territory code,0,province,2026-06-03 01:15:01,PASS,20
+consistency_loan_amount,Consistency,loan_amount must be greater than 0,0,loan_amount,2026-06-03 01:15:02,PASS,20
+consistency_credit_score,Consistency,credit_score must be between 300 and 900,0,credit_score,2026-06-03 01:15:03,PASS,20
+uniqueness_application_id,Uniqueness,application_id must be unique,0,application_id,2026-06-03 01:15:04,PASS,20
